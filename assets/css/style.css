@@ -1,0 +1,22 @@
+body {
+    background-color: #ECCEF5;
+    padding: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.input-text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    text-align: center;
+    border: 0px solid;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.boton {
+    padding-bottom: 20px;
+}

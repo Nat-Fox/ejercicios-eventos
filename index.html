@@ -8,8 +8,23 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+<body onload="onLoadBody();">
+
+    <div class="container">
+        <!--Input para el onmouseout-->
+        <div class="input-text">
+            <label for="input-text">Input</label>
+            <input type="text" name="" value="" id="input-text" onmouseout="mouseOut();" onmouseover="mouseOver();">
+        </div>
+
+        <!--Crea el botón id "demo"-->
+        <div class="boton">
+            <label for="">Click para cambiar</label>
+            <button type="button" id="demo">Enviar!</button>
+            <script type="text/javascript" src="assets/js/main.js"></script>
+        </div>
+    </div>
+
 </body>
 
 </html>
